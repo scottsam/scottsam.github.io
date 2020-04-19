@@ -1,0 +1,63 @@
+.content {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  /* Full width */
+  padding: 10px; /* Some padding */
+}
+
+.image-container {
+  background-image: url("img/slide-four.jpg"); /* The image used - important! */
+  background-size: cover;
+
+  height: 350px; /* Some height */
+  min-height: 650px;
+}
+
+.text {
+  background-color: rgba(245, 236, 236, 0.9);
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 5px;
+
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 60%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+.plus {
+  font-size: large;
+  font-weight: 1000;
+  padding: 0 1rem;
+  color: palevioletred;
+}
+.tex {
+  color: rgb(150, 56, 56);
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(51, 11, 7, 0.2);
+  border: 2px solid rgba(252, 38, 15, 0.2);
+  border-radius: 3rem;
+  font-weight: 800;
+  color: blue;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 12px;
+  }
+  .text {
+    top: 20%;
+  }
+}

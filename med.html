@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+  <title>Better Health</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://www.w3schools.com/lib/w3-theme-black.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="med.css" />
+  <body id="myPage">
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top" id="navbar">
+      <div class="w3-bar w3-white w3-card" id="myNavbar">
+        <a href="#home" class="w3-bar-item w3-button w3-display-middle logo"
+          >BetterHealth.ng</a
+        >
+        <!-- Right-sided navbar links -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+          <a href="#team" class="w3-bar-item w3-button"
+            ><i class="fa fa-user"></i> TEAM</a
+          >
+          <a href="#work" class="w3-bar-item w3-button"
+            ><i class="fa fa-th"></i> WORK</a
+          >
+          <a href="#pricing" class="w3-bar-item w3-button"
+            ><i class="fa fa-usd"></i> SERVICES</a
+          >
+          <a href="#contact" class="w3-bar-item w3-button"
+            ><i class="fa fa-envelope"></i> CONTACT</a
+          >
+        </div>
+        <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+        <a
+          href="javascript:void(0)"
+          class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          onclick="w3_open()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav
+      class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
+      style="display: none;"
+      id="mySidebar"
+    >
+      <a
+        href="javascript:void(0)"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-large w3-padding-16"
+        >Close ×</a
+      >
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
+        >ABOUT</a
+      >
+      <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"
+        >TEAM</a
+      >
+      <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button"
+        >WORK</a
+      >
+      <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button"
+        >PRICING</a
+      >
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"
+        >CONTACT</a
+      >
+    </nav>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+      <div class="image-container">
+        <div class="w3-container text">Better Health Nigeria</div>
+      </div>
+      <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+        <div class="content w3-quarter">
+          <p>
+            It has been estimated that Nigeria has only about 27 physicians for
+            every 100,000 people living in Nigeria, against the WHO standard of
+            100 physicians per 100,000 due to various factors bordering from
+            inadequate healthcare infrastructures and corruption deeply rooted
+            in the Nigerian system. Due to this, a lot of Patients in Nigeria
+            are left unattended to, Or rather, not properly attended to due to
+            the pressures arising from this imbalance.
+          </p>
+          <h2>Our mission</h2>
+          <p>
+            We provide Concise quality health care services at your convenience
+            by making Healthcare easily accessible right in your offices, homes
+            and wherever
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Container -->
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+      <h2>OUR TEAM</h2>
+      <p>Meet Some Of Our Doctors And Physicians</p>
+
+      <div class="w3-row">
+        <br />
+
+        <div class="w3-quarter">
+          <img
+            src="img/docshe.jpg"
+            alt="Boss"
+            style="width: 45%;"
+            class="w3-circle w3-hover-opacity"
+          />
+          <h3>Johnny Walker</h3>
+          <p>Web Designer</p>
+        </div>
+
+        <div class="w3-quarter">
+          <img
+            src=""
+            alt="Boss"
+            style="width: 45%;"
+            class="w3-circle w3-hover-opacity"
+          />
+          <h3>Rebecca Flex</h3>
+          <p>Support</p>
+        </div>
+
+        <div class="w3-quarter">
+          <img
+            src="img/member6.jpg"
+            alt="Boss"
+            style="width: 45%;"
+            class="w3-circle w3-hover-opacity"
+          />
+          <h3>Jan Ringo</h3>
+          <p>Boss man</p>
+        </div>
+
+        <div class="w3-quarter">
+          <img
+            src="img/member5.jpg"
+            alt="Boss"
+            style="width: 45%;"
+            class="w3-circle w3-hover-opacity"
+          />
+          <h3>Kai Ringo</h3>
+          <p>Fixer</p>
+        </div>
+      </div>
+
+      <!-- Slideshow container -->
+      <div class="w3-container w3-padding-32">
+        <!-- Full-width slides/quotes -->
+        <div class="">
+          <q
+            >I love you the more in that I believe you had liked me for my own
+            sake and for nothing else Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Eius mollitia quae magni nisi sunt fugit corrupti
+            illum suscipit quibusdam officiis inventore, quod ad iusto amet
+            exercitationem dolor, magnam error facere.</q
+          >
+          <p class="author">- John Keats</p>
+        </div>
+        <div class="w3-container tex">
+          <h2>Get Free Access To Online Doctors When It Counts</h2>
+          <p>
+            All Physicians employed across the Geopolitical Zones are qualified
+            health care providers, Some who are Specialists in given field of
+            medicine.<span class="plus">+</span> BHN offers simple and fast
+            health response to health issues.<span class="plus">+</span> Our
+            Services are efficient and we create long term personal
+            relationships over long distances across 36 states in Nigeria .<span
+              class="plus"
+              >+</span
+            >
+            Our online services are 24/7 .<span class="plus">+</span> Our
+            services are faster than the traditional waiting time In the
+            hospital setting.<span class="plus">+</span> We give you the
+            opportunity to access health care without ever leaving your home Job
+            or Location . Available online are Qualified Doctors with Tropical
+            Medical Skills and Knowledge .
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Work Row -->
+    <div
+      class="w3-row-padding w3-padding-16 w3-theme-l3 w3-center w3-margin-bottom"
+      id="work"
+    >
+      <div class="w3-center">
+        <h2>Our Services</h2>
+        <p>
+          Our doctors can help consult with many medical issues without you ever
+          leaving the comfort of your home.Our services includes..
+        </p>
+      </div>
+
+      <div class="w3-container">
+        <div class="w3-center">
+          <p>
+            <span class="plus">+</span>Structured counseling on different areas
+            of health
+          </p>
+          <p><span class="plus">+</span>Primary health care</p>
+          <p><span class="plus">+</span>Behavioral medical care</p>
+          <p><span class="plus">+</span>Child care</p>
+          <p><span class="plus">+</span>Nutritional Guidelines</p>
+          <p>
+            <span class="plus">+</span>Mental issue like Depression and Anxiety
+          </p>
+          <p><span class="plus">+</span>Pregnancy Related issues</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-display-container w3-animate-opacity">
+      <img
+        src="img/slide-two.jpg"
+        alt="boat"
+        style="width: 100%; min-height: 700px; max-height: 1000px;"
+      />
+      <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+        <div class="content w3-quarter">
+          <h2>How We Help Our Patients</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            porro magnam quidem veniam atque, ratione, ipsum voluptates
+            obcaecati quae exercitationem voluptate earum. Alias, cumque sit at
+            soluta consequatur eveniet doloribus.
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni illo
+            sunt beatae expedita eum quaerat molestias iusto sed ea ipsa
+            laudantium voluptates hic porro, aspernatur inventore consequatur ab
+            quisquam saepe.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magni
+            molestias ipsam voluptates odio natus tenetur reiciendis veritatis
+            dolores ex repellat obcaecati, earum consequatur temporibus eveniet
+            optio ad suscipit perspiciatis?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Row -->
+    <div class="w3-container w3-center w3-padding-64 tex" id="about">
+      <h2>ABOUT US</h2>
+      <p>
+        At BHC, we develop a Database of Physicians across the 36 states in
+        Nigeria, who offer Concierge medical services to Nigeria by just a
+        simple Click on the internet. By making health care easily Accessible We
+        are more likely to help reduce unnecessary complications due to the
+        inability to easily access healthcare. Yes, right in the convienience of
+        Your home, offices, schools etc, we bring you medical treatment,
+        diagnosis and all basic health care services through our Online
+        platforms, including Consultancy, Medical records keep and so much more.
+        All Physicians employed across the Geopolitical Zones are qualified
+        health care providers, Some who are Specialists in given field of
+        medicine. BHC intends offers simple and fast health response to health
+        issues. Our Services are efficient and we create long term personal
+        relationships over long distances across 36 states in Nigeria . Our
+        online services are 24/7 . Our services are faster than the traditional
+        waiting time In the hospital setting. We give you the opportunity to
+        access health care without ever leaving your home Job or Location .
+        Available online are Qualified Doctors with Tropical Medical Skills and
+        Knowledge .
+      </p>
+    </div>
+
+    <!-- Contact Container -->
+    <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+      <div class="w3-row">
+        <div class="w3-col m5">
+          <div class="w3-padding-16">
+            <span class="w3-xlarge w3-border-teal w3-bottombar"
+              >Contact Us</span
+            >
+          </div>
+          <h3>Address</h3>
+          <p>Swing by for a cup of coffee, or whatever.</p>
+          <p>
+            <i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Chicago, US
+          </p>
+          <p>
+            <i class="fa fa-phone w3-text-teal w3-xlarge"></i> +00 1515151515
+          </p>
+          <p>
+            <i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>
+            test@test.com
+          </p>
+        </div>
+        <div class="w3-col m7">
+          <form
+            class="w3-container w3-card-4 w3-padding-16 w3-white"
+            action="/action_page.php"
+            target="_blank"
+          >
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input" type="text" name="Name" required />
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input" type="text" name="Email" required />
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input" type="text" name="Message" required />
+            </div>
+            <input class="w3-check" type="checkbox" checked name="Like" />
+            <label>I Like it!</label>
+            <button type="submit" class="w3-button w3-right w3-theme">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image of location/map -->
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+      <h4>Follow Us</h4>
+      <a
+        class="w3-button w3-large w3-teal"
+        href="javascript:void(0)"
+        title="Facebook"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a
+        class="w3-button w3-large w3-teal"
+        href="javascript:void(0)"
+        title="Twitter"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a
+        class="w3-button w3-large w3-teal"
+        href="javascript:void(0)"
+        title="Google +"
+        ><i class="fa fa-google-plus"></i
+      ></a>
+      <a
+        class="w3-button w3-large w3-teal"
+        href="javascript:void(0)"
+        title="Google +"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a
+        class="w3-button w3-large w3-teal w3-hide-small"
+        href="javascript:void(0)"
+        title="Linkedin"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+
+      <div
+        style="position: relative; bottom: 100px; z-index: 1;"
+        class="w3-tooltip w3-right"
+      >
+        <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+        <a class="w3-button w3-theme" href="#myPage"
+          ><span class="w3-xlarge">
+            <i class="fa fa-chevron-circle-up"></i></span
+        ></a>
+      </div>
+    </footer>
+
+    <script src="med.js"></script>
+  </body>
+</html>
