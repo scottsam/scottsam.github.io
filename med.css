@@ -13,6 +13,9 @@
   height: 350px; /* Some height */
   min-height: 650px;
 }
+h3 {
+  color: blueviolet;
+}
 
 .text {
   background-color: rgba(245, 236, 236, 0.9);
