@@ -13,7 +13,8 @@
   height: 350px; /* Some height */
   min-height: 650px;
 }
-h1 {
+h1,
+h3 {
   color: blueviolet;
   margin-bottom: 2rem;
 }
