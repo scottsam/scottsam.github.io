@@ -55,9 +55,9 @@
 
 @media screen and (max-width: 600px) {
   .content {
-    font-size: 15px;
+    font-size: 13px;
   }
   .text {
-    top: 25%;
+    top: 20%;
   }
 }
