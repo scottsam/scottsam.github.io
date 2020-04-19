@@ -39,10 +39,9 @@ h3 {
   color: palevioletred;
 }
 .tex {
-  color: rgb(150, 56, 56);
-  letter-spacing: 1px;
+  color: blueviolet;
+
   font-size: 20px;
-  font-family: sans-serif;
 }
 
 .logo {
